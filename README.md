@@ -1,4 +1,4 @@
-#Esta es la tarea sobre la creacion de la pagina Personal de Delio Rodriguez matricula 2023-1051, estas son las capturas de pantalla.
+##Esta es la tarea sobre la creacion de la pagina Personal de Delio Rodriguez matricula 2023-1051, estas son las capturas de pantalla.
 
 ![Captura 1](/Image%20Tarea/Principal.png)
 ![Captura 2](/Image%20Tarea/Programar.png)
