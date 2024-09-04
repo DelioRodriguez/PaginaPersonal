@@ -3,61 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Personal</title>
+    <title>Página Personal</title>
     <link rel="stylesheet" href="/Css/Styles.css">
     <link rel="icon" type="image/png" href="/Images/Delio-image.jpg">
 </head>
 <body>
-    <header>
-        <h1>Mi Página Personal</h1>
-    </header>
+    <div class="container">
+        <header class="profile-header">
+            <img src="/Images/Delio-image.jpg" alt="Delio Rodriguez" class="profile-img">
+            <div class="profile-info">
+                <h1>Delio Rodriguez</h1>
+                <p>Matrícula: 2023-1056</p>
+            </div>
+        </header>
 
-    <div class="personal-info">
-        <img src="/Images/Delio-image.jpg" alt="Personal Photo">
-        <div class="contact-details">
-            <p>Delio Rodriguez</p>
-            <p>Tel: 809-460-6160</p>
-            <p>Dirección: Santo Domingo Este</p>
-            <p>Correo Electrónico: <a href="mailto:deliolorenzo28@gmail.com">deliolorenzo28@gmail.com</a></p>
-            <p>Matrícula: 2023-1056</p>
-        </div>
+        <main>
+            <section class="contact">
+                <h2>Contacto</h2>
+                <p>Tel: 809-460-6160</p>
+                <p>Dirección: Santo Domingo Este</p>
+                <p>Correo Electrónico: <a href="mailto:deliolorenzo28@gmail.com">deliolorenzo28@gmail.com</a></p>
+            </section>
+
+            <section class="about">
+                <h2>Acerca de Mí</h2>
+                <p>Hola, soy Delio Rodriguez, tengo 20 años y soy originario de Montecristi. Actualmente estoy en mi quinto cuatrimestre en ITLA (Instituto Tecnológico de las Américas), donde estoy profundizando mis conocimientos en desarrollo de software. Mi formación académica me ha permitido explorar diversas áreas de la programación, pero me he especializado más en el backend, lo que ha sido una experiencia enriquecedora y desafiante.</p>
+            
+                <p>A lo largo de mi carrera académica, he trabajado con tecnologías como .NET para el backend, y tengo una sólida base en HTML, CSS y JavaScript para el frontend. Aunque me siento más cómodo trabajando en el backend, donde he desarrollado proyectos como un sistema de facturación básico y una aplicación para la gestión de índices, estoy decidido a mejorar mis habilidades en el frontend. Mi objetivo es crear interfaces de usuario más atractivas y funcionales que complementen mis habilidades en el backend.</p>
+            
+                <p>Además de mi pasión por la programación, tengo intereses diversos que me ayudan a mantener un equilibrio en mi vida. Disfruto viendo animes, siguiendo partidos de fútbol y explorando nuevos hobbies. Estas actividades no solo me proporcionan entretenimiento, sino que también me inspiran y me ayudan a mantenerme motivado en mis estudios y proyectos.</p>
+            
+                <p>Mi objetivo a largo plazo es seguir creciendo como desarrollador y contribuir con soluciones innovadoras en el campo del desarrollo de software. Estoy siempre en busca de nuevos desafíos y oportunidades para aprender y mejorar mis habilidades. Si quieres conocer más sobre mis proyectos y cómo puedo contribuir a tus ideas, no dudes en ponerte en contacto conmigo.</p>
+            </section>
+            
+
+            <section class="hobbies">
+                <h2>Hobbies</h2>
+                <div class="hobby-list">
+                    <a href="programming.html" class="hobby-item">Programar</a>
+                    <a href="soccer.html" class="hobby-item">Ver partidos de fútbol</a>
+                    <a href="anime.html" class="hobby-item">Ver Animes</a>
+                </div>
+            </section>
+            <section class="video">
+                <h2>Video Favorito</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/9GLWDkFPRlc"
+                    frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="socials">
+                <h2>Redes Sociales</h2>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/deliorl28/" target="_blank" class="social-icon">
+                        <img src="/Images/Instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/@deliorodriguez8410" target="_blank" class="social-icon">
+                        <img src="/Images/youtube.png" alt="YouTube">
+                    </a>
+                    <a href="https://www.linkedin.com/in/delio-rodriguez-7a4056289/" target="_blank" class="social-icon">
+                        <img src="/Images/linkedin1.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </section>
+
+          
+        </main>
     </div>
-
-    <div class="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Programar</li>
-            <li>Ver partidos de fútbol</li>
-            <li>Ver Animes</li>
-        </ul>
-    </div>
-
-    <div class="social-links">
-        <h2>Redes Sociales</h2>
-        <div class="social-icons">
-            <a href="https://www.instagram.com/deliorl28/" target="_blank">
-                <img src="/Images/Instagram.png" alt="Instagram">
-            </a>
-            <a href="https://www.youtube.com/@deliorodriguez8410" target="_blank">
-                <img src="/Images/youtube.png" alt="Youtube">
-            </a>
-            <a href="https://www.linkedin.com/in/delio-rodriguez-7a4056289/" target="_blank">
-                <img src="/Images/linkedin1.png" alt="LinkedIn">
-            </a>
-        </div>
-    </div>
-
-    <div class="youtube-video">
-        <h2>Video Favorito</h2>
-        <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/9GLWDkFPRlc"
-        frameborder="0" 
-        allowfullscreen>
-        </iframe> 
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Delio Rodriguez Programacion web</p>
-    </footer>
 </body>
 </html>
