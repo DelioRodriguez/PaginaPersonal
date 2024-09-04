@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: #121212; /* Gris muy oscuro */
-    color: #E0E0E0; /* Gris claro */
+    background: #121212;
+    color: #E0E0E0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 .container {
     width: 100%;
     max-width: 1000px;
-    background: #1F1F1F; /* Gris oscuro */
+    background: #1F1F1F;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
@@ -27,7 +27,7 @@ body {
 .profile-header {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid #BB86FC; /* Lila claro */
+    border-bottom: 2px solid #BB86FC;
     padding-bottom: 15px;
     margin-bottom: 30px;
 }
@@ -37,19 +37,19 @@ body {
     width: 130px;
     height: 130px;
     object-fit: cover;
-    border: 4px solid #BB86FC; /* Lila claro */
+    border: 4px solid #BB86FC;
     margin-right: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .profile-info h1 {
     font-size: 2rem;
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
 }
 
 .profile-info p {
     font-size: 1rem;
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
 }
 
 main section {
@@ -57,21 +57,21 @@ main section {
 }
 
 h2 {
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
     font-size: 1.8rem;
     margin-bottom: 10px;
-    border-bottom: 2px solid #BB86FC; /* Lila claro */
+    border-bottom: 2px solid #BB86FC;
     padding-bottom: 5px;
 }
 
 .contact p, .about p, .hobbies p {
     font-size: 1rem;
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
     margin-bottom: 10px;
 }
 
 .contact a {
-    color: #BB86FC; /* Lila claro */
+    color: #BB86FC;
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,19 +93,19 @@ h2 {
 }
 
 .hobby-item {
-    background: #2C2C2C; /* Gris intermedio */
+    background: #2C2C2C; 
     border-radius: 12px;
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     transition: background-color 0.3s ease, transform 0.3s ease;
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
     text-decoration: none;
 }
 
 .hobby-item:hover {
-    background: #BB86FC; /* Lila claro */
-    color: #121212; /* Gris muy oscuro */
+    background: #BB86FC; 
+    color: #121212; 
     transform: translateY(-5px);
 }
 
@@ -119,7 +119,7 @@ h2 {
     display: inline-block;
     width: 60px;
     height: 60px;
-    background-color: #BB86FC; /* Lila claro */
+    background-color: #BB86FC; 
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
@@ -133,7 +133,7 @@ h2 {
 }
 
 .social-icon:hover {
-    background-color: #9E67D7; /* Lila más oscuro */
+    background-color: #9E67D7; 
     transform: scale(1.1);
 }
 
@@ -150,17 +150,17 @@ h2 {
     border: none;
 }
 
-/* Estilos para la página de detalles */
+
 .detail-header {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid #BB86FC; /* Lila claro */
+    border-bottom: 2px solid #BB86FC; 
     padding-bottom: 15px;
     margin-bottom: 30px;
 }
 
 .back-link {
-    color: #BB86FC; /* Lila claro */
+    color: #BB86FC; 
     text-decoration: none;
     font-size: 1.2rem;
     margin-right: 20px;
@@ -187,7 +187,7 @@ h2 {
 .project-item {
     display: flex;
     align-items: center;
-    background: #2C2C2C; /* Gris intermedio */
+    background: #2C2C2C; 
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -195,8 +195,8 @@ h2 {
 }
 
 .project-item:hover {
-    background: #BB86FC; /* Lila claro */
-    color: #121212; /* Gris muy oscuro */
+    background: #BB86FC;
+    color: #121212; 
     transform: translateY(-5px);
 }
 
@@ -211,18 +211,18 @@ h2 {
 
 .project-info h3 {
     font-size: 1.5rem;
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
     margin-bottom: 10px;
 }
 
 .project-info p {
     font-size: 1rem;
-    color: #E0E0E0; /* Gris claro */
+    color: #E0E0E0; 
     margin-bottom: 10px;
 }
 
 .project-link {
-    color: #BB86FC; /* Lila claro */
+    color: #BB86FC; 
     text-decoration: none;
     font-weight: bold;
 }
